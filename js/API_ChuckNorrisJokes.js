@@ -1,7 +1,7 @@
 //***********************************
 //  Use chucknorris API
 //
-//   19/Sep/2021  Kazuhisa Kondo (@Kazukd)
+//   19/Sep/2021  Kazuhisa Kondo (Kazukd)
 //***********************************
 
 //auto run after load html  file
