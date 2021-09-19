@@ -1,0 +1,80 @@
+/************************************************************
+/*
+/*       style.css 
+/*      19/Sep/2021  Kazuhisa Kondo(@Kazukd)
+/*
+/************************************************************/
+
+* {
+    box-sizing: border-box;
+ }
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue","Hiragino Kaku Gothic Pro", Meiryo,  Helvetica, Arial, sans-serif; 
+    background-color: #e6e6e6;
+ }
+ 
+ 
+ /* header css */
+ header {
+    padding: 10px 1% 5px;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+ }
+ header h1 {
+	margin: 0; padding: 0;
+    font-size: 35px;
+	color: black;
+ }
+
+header a {	
+    text-decoration: none;
+    color: #4b4b4b;
+ }
+ 
+ h1{
+     margin-top: 5px;
+	 padding: 20px 2% 5px;
+	 color: green;
+ }
+ 
+ h2{
+	 margin: 0;
+	 padding: 0;
+ }
+ 
+ hr {
+	 border-color: red;
+ }
+ 
+   
+ footer{
+	 margin: 0;
+	 padding: 0;
+ }
+ 
+ 
+footer{
+	text-align: center;
+	height:35px;
+	padding-top: 5px;
+	background-color: #5555FF;
+	clear: both;
+}
+
+
+.container_box{
+	background-color: yellow;
+}
+
+button{
+	height: 50px;
+	font-size:15px;
+	color: white;
+	background-color: blue;
+	border-radius:20px;
+}

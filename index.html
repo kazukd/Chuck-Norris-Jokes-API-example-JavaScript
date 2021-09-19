@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/API_ChuckNorrisJokes.js">
+</script>
+
+    <title>Chuck Norris Jokes API Example JavaScript</title>
+</head>
+
+<body>
+    <header>
+        <h1>Chuck Norris Jokes API Example JavaScript</h1>
+    </header>
+
+    <h2>Select Random Joke from Chuck Norris API</h2>
+	This joke is selected randomlly. Also this is auto run example. 
+	API is automatically running after open html file. Write joke into class.
+
+    <div>
+        <div class="ChuckImg"></div>
+
+        <div class="container_box">
+            <p class="joke"></p>
+        </div><button onclick="getJoke();">Get Another Joke</button>
+    </div>
+	
+    <hr>
+
+    <h2>Select Animal Joke from Chuck Norris API</h2>
+	This joke is only Animal category. 
+	Set category into JavaScript. 
+	Write joke  into ID.
+
+    <div>
+        <button onclick="getAnimalJoke();">Get Animal Joke</button>
+
+        <div class="container_box">
+            <p id="AnimalJoke"></p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; @Kazukd 2021
+    </footer>
+</body>
+</html>
